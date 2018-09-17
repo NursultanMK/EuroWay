@@ -473,8 +473,8 @@ body {
     z-index: 9970; }
 
 .l-footer {
-  padding-top: 10.27778%;
-  padding-bottom: 6.875%;
+  padding-top: 14.8rem;
+  padding-bottom: 9.9rem;
   background-image: url("../img/footer.png"); }
   @media (max-width: 990px) {
     .l-footer {
@@ -525,7 +525,7 @@ body {
   .p-contacts__heading {
     width: 47.5rem;
     padding-top: 17.21053%;
-    padding-bottom: 39.21053%;
+    padding-bottom: 16.21053%;
     padding-left: 2.31579%;
     padding-right: 0; }
     @media (max-width: 950px) {
