@@ -1,0 +1,17 @@
+.c-about-page-info {
+  //border: 1px solid red;
+  width: 45%;
+  padding-top: 9.1rem;
+  padding-left: 6rem;
+  padding-right: 9rem;
+
+  &__title {
+    //border: 1px solid green;
+    width: 55rem;
+    margin-bottom: 8rem;
+  }
+
+  &__under-text {
+    font-size: 1.6rem;
+  }
+}

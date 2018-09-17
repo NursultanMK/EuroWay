@@ -1,0 +1,42 @@
+// Abstracts
+@import
+  "abstracts/variables",
+  "abstracts/mixins";
+
+// Base
+@import
+  "base/fonts",
+  "base/base",
+  "base/typography";
+
+// Components
+@import
+  "components/c-about-page-info",
+  "components/c-agreement",
+  "components/c-arrows",
+  "components/c-cards",
+  "components/c-contact-form",
+  "components/c-entry-form",
+  "components/c-entry-text",
+  "components/c-figure-block",
+  "components/c-list",
+  "components/c-subheading",
+  "components/c-main-buttons",
+  "components/c-vacancy-list",
+  "components/c-videos";
+
+// Layout
+@import
+  "layout/l-body",
+  "layout/l-header",
+  "layout/l-body",
+  "layout/l-footer";
+
+// Pages
+@import
+  "page/p-index",
+  "page/p-contacts",
+  "page/p-about",
+  "page/p-vacancy",
+  "page/p-video",
+  "page/p-entry";

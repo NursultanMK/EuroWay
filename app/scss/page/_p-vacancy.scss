@@ -1,0 +1,20 @@
+.p-vacancy {
+  padding-top: 6.8rem;
+  padding-bottom: 8.9rem;
+
+  &__inner {
+    margin: 0;
+    @include container;
+  }
+  &__heading {
+    margin-bottom: 4.7rem;
+    padding: 0 2.6rem;
+  }
+  &__body {
+    margin-bottom: 8.8rem;
+  }
+  &__under-heading {
+    padding: 0 2.6rem;
+    margin-bottom: 5rem;
+  }
+}

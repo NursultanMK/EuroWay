@@ -1,0 +1,15 @@
+.c-list {
+  width: 25%;
+
+  &__item {
+    font-size: 1.2rem;
+    font-weight: 600;
+    &:not(:last-child) {
+      margin-bottom:  0.8rem;
+    }
+    &--title {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+}

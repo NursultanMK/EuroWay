@@ -1,0 +1,10 @@
+@mixin respond-to($breakpoint){
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin container {
+  padding: 0 22rem;
+}
+

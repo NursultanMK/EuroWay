@@ -1,0 +1,20 @@
+.c-figure-block {
+  width: 51.3rem;
+  padding-bottom: 11.4rem;
+  position: relative;
+
+  &__background-item {
+    padding-bottom: 45.5%;
+    width: 36.7rem;
+    border-radius: 0.9rem;
+  }
+  &__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+  }
+  &__img-png {
+    width: 100%;
+  }
+}

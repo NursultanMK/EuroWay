@@ -1,0 +1,18 @@
+.p-index {
+  padding-top: 35.2rem;
+  padding-bottom: 27.7rem;
+  background-image: url("../img/back-img.png");
+  background-size: cover;
+  background-position: center;
+
+  &__inner {
+    @include container;
+  }
+
+  &__heading {
+    margin-bottom: 1.2rem;
+  }
+
+  &__body {
+  }
+}

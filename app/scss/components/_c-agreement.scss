@@ -1,0 +1,14 @@
+.c-agreement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__button {
+    width: 2.4rem;
+    border-radius: 100%;
+    height: 2.4rem;
+  }
+  &__text {
+    font-size: 1.5rem;
+  }
+}

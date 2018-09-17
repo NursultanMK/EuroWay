@@ -1,0 +1,17 @@
+.l-footer {
+  padding-top: 14.8rem;
+  padding-bottom: 9.9rem;
+
+  &__inner {
+    @include container;
+  }
+  &__heading {
+    padding: 0 3rem;
+    margin-bottom: 3.4rem;
+  }
+  &__body {
+    padding: 0 3.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

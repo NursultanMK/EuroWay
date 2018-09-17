@@ -1,0 +1,14 @@
+.p-entry {
+  padding-top: 6.9rem;
+  padding-bottom: 22rem;
+
+  &__inner {
+
+    @include container;
+  }
+
+  &__heading {
+    padding: 0 2.6rem;
+    margin-bottom: 4rem;
+  }
+}

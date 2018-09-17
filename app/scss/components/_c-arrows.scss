@@ -1,0 +1,10 @@
+.c-arrows {
+  display: flex;
+  justify-content: center;
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+  }
+}

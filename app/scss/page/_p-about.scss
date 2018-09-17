@@ -1,0 +1,18 @@
+.p-about {
+  padding-top: 7.5rem;
+  padding-bottom: 4.2rem;
+
+  &__inner {
+    @include container;
+  }
+  &__heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9.4rem;
+  }
+
+  &__body {
+    //background: yellow;
+  }
+}
