@@ -44,6 +44,10 @@ body {
 .t-contacts-heading {
   font-size: 3.1rem;
   font-weight: normal;
+  @media (max-width:490px) {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
 .t-footer-head {
   font-size: 2.4rem;

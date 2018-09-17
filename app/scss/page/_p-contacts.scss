@@ -1,19 +1,35 @@
 .p-contacts {
-  padding-top: 9.5rem;
-  padding-bottom: 4.2rem;
+  padding-top: 95 / 1440 * 100%;
+  padding-bottom: 42 / 1440 * 100%;
 
   &__inner {
     @include container;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 950px) {
+      flex-direction: column;
+      padding: 0;
+    }
   }
   &__heading {
     //border: 1px solid black;
     width: 47.5rem;
-    padding: 17.2rem 3rem;
+    //padding: 17.2rem 3rem;
+    padding-top: 17.21053%;
+    padding-bottom: 39.21053%;
+    padding-left: 2.31579%;
+    padding-right: 0;
+    @media (max-width: 950px) {
+      padding-bottom: 5%;
+      width: 100%;
+    }
   }
   &__body {
     padding: 0 2.3rem 0 1.1rem;
     width: 50%;
+    @media (max-width: 950px) {
+      width: 100%;
+      padding: 0 5%;
+    }
   }
 }
