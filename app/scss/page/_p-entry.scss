@@ -1,14 +1,22 @@
 .p-entry {
   padding-top: 6.9rem;
   padding-bottom: 22rem;
+  background-image: url("../img/entry-bg.png");
 
   &__inner {
 
     @include container;
+    @media (max-width: 990px) {
+      padding: 0;
+    }
   }
 
   &__heading {
     padding: 0 2.6rem;
     margin-bottom: 4rem;
+
+    & h1 {
+      color: $color-orange;
+    }
   }
 }
