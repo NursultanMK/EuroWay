@@ -79,17 +79,28 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 .t-main-heading {
+  color: white;
   font-size: 3.7rem;
   font-weight: 600;
   text-transform: uppercase; }
+  @media (max-width: 589px) {
+    .t-main-heading {
+      font-size: 2.7rem; } }
+  @media (max-width: 400px) {
+    .t-main-heading {
+      font-size: 2rem; } }
 
 .t-heading {
   font-size: 3.7rem;
   font-weight: 600; }
 
 .t-subheading {
+  color: white;
   font-size: 2.4rem;
   font-weight: 300; }
+  @media (max-width: 589px) {
+    .t-subheading {
+      font-size: 1.7rem; } }
 
 .t-about-heading {
   font-size: 2.5rem;
@@ -238,9 +249,25 @@ body {
   width: 46.5rem;
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 589px) {
+    .c-main-buttons {
+      flex-direction: column;
+      width: 70%;
+      margin: 0 auto; } }
   .c-main-buttons__item {
+    border: 1px solid #f4a102;
+    color: #f4a102;
     padding: 1.1rem 3.8rem;
     font-size: 2.6rem; }
+    @media (max-width: 589px) {
+      .c-main-buttons__item {
+        padding-top: 3.84199%;
+        padding-bottom: 3.84199%;
+        padding-left: 13.27233%;
+        padding-right: 13.27233%;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 2rem; } }
 
 .c-vacancy-list {
   padding: 0 2.4rem;
@@ -328,7 +355,10 @@ body {
   padding-top: 14.8rem;
   padding-bottom: 9.9rem; }
   .l-footer__inner {
-    padding: 0 22rem; }
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15.27778%;
+    padding-left: 15.27778%; }
   .l-footer__heading {
     padding: 0 3rem;
     margin-bottom: 3.4rem; }
@@ -338,21 +368,27 @@ body {
     justify-content: space-between; }
 
 .p-index {
-  padding-top: 35.2rem;
-  padding-bottom: 27.7rem;
+  padding-top: 24.44444%;
+  padding-bottom: 19.23611%;
   background-image: url("../img/back-img.png");
   background-size: cover;
   background-position: center; }
   .p-index__inner {
-    padding: 0 22rem; }
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15.27778%;
+    padding-left: 15.27778%; }
   .p-index__heading {
-    margin-bottom: 1.2rem; }
+    margin-bottom: 0.97222%; }
 
 .p-contacts {
   padding-top: 9.5rem;
   padding-bottom: 4.2rem; }
   .p-contacts__inner {
-    padding: 0 22rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15.27778%;
+    padding-left: 15.27778%;
     display: flex;
     justify-content: space-between; }
   .p-contacts__heading {
@@ -366,7 +402,10 @@ body {
   padding-top: 7.5rem;
   padding-bottom: 4.2rem; }
   .p-about__inner {
-    padding: 0 22rem; }
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15.27778%;
+    padding-left: 15.27778%; }
   .p-about__heading {
     width: 100%;
     display: flex;
@@ -378,7 +417,10 @@ body {
   padding-bottom: 8.9rem; }
   .p-vacancy__inner {
     margin: 0;
-    padding: 0 22rem; }
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15.27778%;
+    padding-left: 15.27778%; }
   .p-vacancy__heading {
     margin-bottom: 4.7rem;
     padding: 0 2.6rem; }
@@ -392,7 +434,10 @@ body {
   padding-top: 6.9rem;
   padding-bottom: 22rem; }
   .p-entry__inner {
-    padding: 0 22rem; }
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15.27778%;
+    padding-left: 15.27778%; }
   .p-entry__heading {
     padding: 0 2.6rem;
     margin-bottom: 4rem; }

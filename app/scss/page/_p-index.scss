@@ -1,6 +1,6 @@
 .p-index {
-  padding-top: 35.2rem;
-  padding-bottom: 27.7rem;
+  padding-top: 352 / 1440 * 100%;
+  padding-bottom: 277 / 1440 * 100%;
   background-image: url("../img/back-img.png");
   background-size: cover;
   background-position: center;
@@ -10,7 +10,7 @@
   }
 
   &__heading {
-    margin-bottom: 1.2rem;
+    margin-bottom: 14 / 1440 * 100%;
   }
 
   &__body {

@@ -3,17 +3,31 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .t-main-heading {
+  color: white;
   font-size: 3.7rem;
   font-weight: 600;
   text-transform: uppercase;
+  @media (max-width:589px) {
+    font-size: 2.7rem;
+
+  }
+  @media (max-width:400px) {
+    font-size: 2rem;
+
+  }
 }
 .t-heading {
   font-size: 3.7rem;
   font-weight: 600;
 }
 .t-subheading {
+  color: white;
   font-size: 2.4rem;
   font-weight: 300;
+  @media (max-width:589px) {
+    font-size: 1.7rem;
+
+  }
 }
 .t-about-heading {
   font-size: 2.5rem;

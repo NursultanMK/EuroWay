@@ -5,6 +5,9 @@
 }
 
 @mixin container {
-  padding: 0 22rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 220 / 1440 * 100%;
+  padding-left: 220/ 1440 * 100%;
 }
 
