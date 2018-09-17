@@ -1,18 +1,25 @@
 .p-about {
-  padding-top: 7.5rem;
-  padding-bottom: 4.2rem;
+  padding-top: 75 / 1440 * 100%;
+  padding-bottom: 42 / 1440 * 100%;
 
   &__inner {
     @include container;
+    @media (max-width: 990px) {
+      padding: 0;
+    }
   }
   &__heading {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 9.4rem;
+    margin-bottom: 94 / 1000 * 100%;
+    @media (max-width: 990px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__body {
-    //background: yellow;
   }
 }

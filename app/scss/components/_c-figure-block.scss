@@ -1,20 +1,23 @@
 .c-figure-block {
-  width: 51.3rem;
-  padding-bottom: 11.4rem;
+  width: 513 / 1000 * 100%;
+  //padding-bottom: 114 / 513 * 100%;
+  padding-bottom: 11.22222%;
   position: relative;
 
   &__background-item {
+    background: $color-orange;
     padding-bottom: 45.5%;
-    width: 36.7rem;
+    width: 367 / 513 * 100%;
     border-radius: 0.9rem;
   }
   &__img {
+    width: 95.5%;
     position: absolute;
     bottom: 0;
     right: 0;
-    display: flex;
   }
   &__img-png {
     width: 100%;
+    display: block;
   }
 }

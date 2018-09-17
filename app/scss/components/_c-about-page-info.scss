@@ -1,17 +1,33 @@
 .c-about-page-info {
-  //border: 1px solid red;
   width: 45%;
-  padding-top: 9.1rem;
-  padding-left: 6rem;
-  padding-right: 9rem;
+  padding-top: 9.22222%;
+  @media (max-width: 990px) {
+    width: 70%;
+    margin-bottom: 3%;
+  }
 
   &__title {
-    //border: 1px solid green;
-    width: 55rem;
-    margin-bottom: 8rem;
+    width: 115%;
+    margin-left: 60 / 450 * 100%;
+    margin-bottom: 80 / 450 * 100%;
+    @media (max-width: 990px) {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      margin-bottom: 2%;
+      text-align: center;
+    }
   }
 
   &__under-text {
-    font-size: 1.6rem;
+    margin-left: 60 / 450 * 100%;
+    font-size: 1.7rem;
+    width: 30rem;
+    @media (max-width: 990px) {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
+    }
   }
 }

@@ -1,13 +1,26 @@
 .c-cards {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 2.4rem;
-
+  @media (max-width: 990px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
   &__item {
     border-radius: 0.5rem;
     border: 0.4rem solid $color-orange;
-    width: 22rem;
+    width: 23%;
     padding: 1.9rem 2rem 5.6rem 2rem;
+    @media (max-width: 990px) {
+      width: 40%;
+      margin: 2%;
+    }
+    @media (max-width: 490px) {
+      width: 70%;
+      margin: 2%;
+    }
   }
 
   &__image {
