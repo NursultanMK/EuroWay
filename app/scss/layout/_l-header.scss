@@ -4,11 +4,18 @@
   position: fixed;
   top: 0;
   width: 100%;
+  transition: 0.2s;
+  &--activate {
+    background: black;
+    padding-top: 15 / 1440 * 100%;
+    padding-bottom: 15 / 1440 * 100%;
 
+  }
   &__inner {
     @include container;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   @media (max-width: 768px) {
     background: black;

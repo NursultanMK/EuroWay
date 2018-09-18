@@ -14,10 +14,10 @@
         <div class="l-header__inner">
             <p class="c-logotype-text">EUROWAY</p>
             <ul class="c-menu-list">
-                <li class="c-menu-list__item">HOME</li>
-                <li class="c-menu-list__item">ABOUT</li>
-                <li class="c-menu-list__item">CONTACT</li>
-                <li class="c-menu-list__item">NEWS</li>
+                <li class="c-menu-list__item"><a href="#home">HOME</a></li>
+                <li class="c-menu-list__item"><a href="#about">ABOUT</a></li>
+                <li class="c-menu-list__item"><a href="#contact">CONTACT</a></li>
+                <li class="c-menu-list__item"><a href="#">NEWS</a></li>
             </ul>
             <figure class="c-menu">
                 <img src="img/menu-button.svg" alt="Menu" class="c-menu__icon">
@@ -25,7 +25,7 @@
         </div>
     </header>
     <main class="l-body__main l-main">
-        <section class="p-index">
+        <section class="p-index" id="home">
             <div class="p-index__inner">
                 <header class="p-index__heading">
                     <h1 class="t-main-heading">Lorem ipsum is simply dummy text </h1>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <section class="p-about">
+        <section class="p-about" id="about">
             <div class="p-about__inner">
                 <header class="p-about__heading">
                     <div class="c-figure-block">
@@ -150,14 +150,7 @@
                             </article>
                         </div>
                     </div>
-                    <!--<div class="c-arrows">-->
-                        <!--<figure class="c-arrows__icon owl-prev">-->
-                            <!--<img src="img/arrow-left.svg" alt="Arrow left">-->
-                        <!--</figure>-->
-                        <!--<figure class="c-arrows__icon owl-next">-->
-                            <!--<img src="img/arrow-right.svg" alt="Arrow right">-->
-                        <!--</figure>-->
-                    <!--</div>-->
+
                 </div>
                 <header class="p-vacancy__under-heading">
                     <h1 class="t-heading">Lorem Ipsum</h1>
@@ -200,7 +193,7 @@
                 </div>
             </div>
         </section>
-        <section class="p-contacts">
+        <section class="p-contacts" id="contact">
             <div class="p-contacts__inner">
                 <header class="p-contacts__heading">
                     <h1 class="t-contacts-heading">
@@ -282,7 +275,15 @@
         });
         $('.c-menu').click(function () {
             $('.c-menu-list').toggleClass('c-menu-list--activate')
-        })
+        });
+        $(window).on("scroll", function() {
+            if($(window).scrollTop() > 600) {
+                $(".l-header").addClass("l-header--activate");
+            } else {
+                //remove the background property so it comes transparent again (defined in your css)
+                $(".l-header").removeClass("l-header--activate");
+            }
+        });
     });
 </script>
 </body>
