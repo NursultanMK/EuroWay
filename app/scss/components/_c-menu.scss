@@ -1,0 +1,12 @@
+.c-menu {
+  display: none;
+  color: white;
+  width: 3rem;
+  @media (max-width: 768px) {
+    display: block;
+  }
+  &__icon {
+    width: 100%;
+    display: block;
+  }
+}
