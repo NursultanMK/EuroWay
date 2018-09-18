@@ -1,0 +1,14 @@
+.c-play {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  right: -72px;
+  top: 1%;
+  transform: translate(-50%, -50%);
+  @media (max-width: 870px) {
+    display: none;
+  }
+  &__button {
+    width: 100%;
+  }
+}

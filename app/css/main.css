@@ -358,6 +358,19 @@ body {
 .c-subheading {
   margin-bottom: 6.5rem; }
 
+.c-play {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  right: -72px;
+  top: 1%;
+  transform: translate(-50%, -50%); }
+  @media (max-width: 870px) {
+    .c-play {
+      display: none; } }
+  .c-play__button {
+    width: 100%; }
+
 .c-main-buttons {
   width: 46.5rem;
   display: flex;
@@ -592,6 +605,8 @@ body {
     padding-left: 15.27778%; }
   .p-index__heading {
     margin-bottom: 0.97222%; }
+  .p-index__body {
+    position: relative; }
 
 .p-contacts {
   padding-top: 6.59722%;
